@@ -6,7 +6,7 @@ def fizzbuzz(num)
   elsif num.modulo(3) == 0
     puts "Fizz"
   elsif num.modulo(5) == 0
-    puts "Buzz"  
+    puts "Buzz"
 end
 
 fizz_3 = fizzbuzz(3)
