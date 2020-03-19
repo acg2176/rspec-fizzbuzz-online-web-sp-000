@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   if num.modulo(3) == 0 && num.modulo(5) == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
   elsif num.modulo(3) == 0
-    puts "Fizz"
+    "Fizz"
   elsif num.modulo(5) == 0
-    puts "Buzz"
+    "Buzz"
 end
 
 fizz_3 = fizzbuzz(3)
